@@ -47,6 +47,7 @@
     {
       "id": "work_iki_sehrin_yakasi",
       "title": "İki Şehrin Yakası",
+      "contentId": "content_iki_sehrin_yakasi",
       "mainCategoryId": "cat_sesli_kitap",
       "subCategoryIds": ["cat_dunya_klasikleri"],
       "creatorIds": ["person_charles_dickens", "person_anlatci_1"],
@@ -56,6 +57,7 @@
     {
       "id": "work_suc_ve_ceza",
       "title": "Suç ve Ceza",
+      "contentId": "content_suc_ve_ceza",
       "mainCategoryId": "cat_sesli_kitap",
       "subCategoryIds": ["cat_dunya_klasikleri", "cat_psikoloji"],
       "creatorIds": ["person_dostoyevski", "person_anlatci_1"],
@@ -65,6 +67,7 @@
     {
       "id": "work_1984",
       "title": "1984",
+      "contentId": "content_1984",
       "mainCategoryId": "cat_sesli_kitap",
       "subCategoryIds": ["cat_dunya_klasikleri"],
       "creatorIds": ["person_orwell", "person_anlatci_2"],
@@ -74,26 +77,27 @@
     {
       "id": "work_hobbit",
       "title": "Hobbit",
+      "contentId": "content_hobbit",
       "mainCategoryId": "cat_sesli_kitap",
       "subCategoryIds": ["cat_fantastik"],
       "creatorIds": ["person_tolkien", "person_anlatci_1"],
       "coverImage": "https://picsum.photos/seed/hobbit/400",
       "description": "Orta Dünya’ya yapılan büyülü bir yolculuk."
     },
-
     {
       "id": "work_golge_sahne",
       "title": "Gölge Sahne",
+      "contentId": "content_golge_sahne",
       "mainCategoryId": "cat_radyo_tiyatrosu",
       "subCategoryIds": ["cat_tiyatro_modern"],
       "creatorIds": ["person_anlatci_2"],
       "coverImage": "https://picsum.photos/seed/golge/400",
       "description": "Modern bir radyo tiyatrosu."
     },
-
     {
       "id": "work_zamanin_kisa_tarihi",
       "title": "Zamanın Kısa Tarihi",
+      "contentId": "content_zamanin_kisa_tarihi",
       "mainCategoryId": "cat_podcast",
       "subCategoryIds": ["cat_kultur_sanat"],
       "creatorIds": ["person_ikra_podcast"],
@@ -103,6 +107,7 @@
     {
       "id": "work_dusunce_defteri",
       "title": "Düşünce Defteri",
+      "contentId": "content_dusunce_defteri",
       "mainCategoryId": "cat_podcast",
       "subCategoryIds": ["cat_kultur_sanat"],
       "creatorIds": ["person_ikra_podcast"],
@@ -112,6 +117,7 @@
     {
       "id": "work_kendinle_konus",
       "title": "Kendinle Konuş",
+      "contentId": "content_kendinle_konus",
       "mainCategoryId": "cat_podcast",
       "subCategoryIds": ["cat_kisisel_gelisim"],
       "creatorIds": ["person_ikra_podcast"],
@@ -161,7 +167,6 @@
       "duration": "58:30",
       "type": "audio"
     },
-
     {
       "id": "content_zamanin_kisa_tarihi",
       "workId": "work_zamanin_kisa_tarihi",
