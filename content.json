@@ -44,6 +44,16 @@
   ],
 
   "works": [
+  {
+      "id": "work_incir_agaci",
+      "title": "İncir Ağacı",
+      "contentId": "content_incir_agaci",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": ["cat_dunya_klasikleri"],
+      "creatorIds": ["person_charles_dickens", "person_anlatci_1"],
+      "coverImage": "https://picsum.photos/seed/ikisehir/400",
+      "description": "Fransız Devrimi fonunda geçen epik bir insanlık hikâyesi."
+    },
     {
       "id": "work_iki_sehrin_yakasi",
       "title": "İki Şehrin Yakası",
@@ -127,6 +137,14 @@
   ],
 
   "contents": [
+    {
+      "id": "content_incir_agaci",
+      "workId": "work_incir_agaci",
+      "title": "İncir Ağacı",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "duration": "16:45:20",
+      "type": "audio"
+    },
     {
       "id": "content_iki_sehrin_yakasi",
       "workId": "work_iki_sehrin_yakasi",
