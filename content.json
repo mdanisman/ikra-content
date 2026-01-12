@@ -1,0 +1,190 @@
+{
+  "version": 2,
+  "lastUpdated": "2026-01-12T12:10:00Z",
+
+  "categories": [
+    { "id": "cat_sesli_kitap", "title": "Sesli Kitap", "type": "main" },
+    { "id": "cat_radyo_tiyatrosu", "title": "Radyo Tiyatrosu", "type": "main" },
+    { "id": "cat_podcast", "title": "Podcast Yayınları", "type": "main" },
+
+    { "id": "cat_dunya_klasikleri", "title": "Dünya Klasikleri", "type": "sub", "parentId": "cat_sesli_kitap" },
+    { "id": "cat_turk_klasikleri", "title": "Türk Klasikleri", "type": "sub", "parentId": "cat_sesli_kitap" },
+    { "id": "cat_psikoloji", "title": "Psikoloji", "type": "sub", "parentId": "cat_sesli_kitap" },
+    { "id": "cat_fantastik", "title": "Fantastik", "type": "sub", "parentId": "cat_sesli_kitap" },
+
+    { "id": "cat_tiyatro_klasik", "title": "Klasik Tiyatro", "type": "sub", "parentId": "cat_radyo_tiyatrosu" },
+    { "id": "cat_tiyatro_modern", "title": "Modern Tiyatro", "type": "sub", "parentId": "cat_radyo_tiyatrosu" },
+
+    { "id": "cat_kultur_sanat", "title": "Kültür & Sanat", "type": "sub", "parentId": "cat_podcast" },
+    { "id": "cat_kisisel_gelisim", "title": "Kişisel Gelişim", "type": "sub", "parentId": "cat_podcast" }
+  ],
+
+  "persons": [
+    {
+      "id": "person_charles_dickens",
+      "name": "Charles Dickens",
+      "role": "author",
+      "bio": "İngiliz edebiyatının en önemli yazarlarından biridir."
+    },
+    {
+      "id": "person_dostoyevski",
+      "name": "Fyodor Dostoyevski",
+      "role": "author",
+      "bio": "Rus edebiyatının en önemli yazarlarından biridir."
+    },
+    { "id": "person_orwell", "name": "George Orwell", "role": "author" },
+    { "id": "person_sabahattin_ali", "name": "Sabahattin Ali", "role": "author" },
+    { "id": "person_oguz_atay", "name": "Oğuz Atay", "role": "author" },
+    { "id": "person_tolkien", "name": "J.R.R. Tolkien", "role": "author" },
+
+    { "id": "person_anlatci_1", "name": "Mert Günay", "role": "narrator" },
+    { "id": "person_anlatci_2", "name": "Ayşe Kaya", "role": "narrator" },
+
+    { "id": "person_ikra_podcast", "name": "İkra Podcast", "role": "publisher" }
+  ],
+
+  "works": [
+    {
+      "id": "work_iki_sehrin_yakasi",
+      "title": "İki Şehrin Yakası",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": ["cat_dunya_klasikleri"],
+      "creatorIds": ["person_charles_dickens", "person_anlatci_1"],
+      "coverImage": "https://picsum.photos/seed/ikisehir/400",
+      "description": "Fransız Devrimi fonunda geçen epik bir insanlık hikâyesi."
+    },
+    {
+      "id": "work_suc_ve_ceza",
+      "title": "Suç ve Ceza",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": ["cat_dunya_klasikleri", "cat_psikoloji"],
+      "creatorIds": ["person_dostoyevski", "person_anlatci_1"],
+      "coverImage": "https://picsum.photos/seed/sucveceza/400",
+      "description": "Suç, vicdan ve ahlaki sorgulamalar üzerine bir başyapıt."
+    },
+    {
+      "id": "work_1984",
+      "title": "1984",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": ["cat_dunya_klasikleri"],
+      "creatorIds": ["person_orwell", "person_anlatci_2"],
+      "coverImage": "https://picsum.photos/seed/1984/400",
+      "description": "Totaliter rejimler üzerine distopik bir roman."
+    },
+    {
+      "id": "work_hobbit",
+      "title": "Hobbit",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": ["cat_fantastik"],
+      "creatorIds": ["person_tolkien", "person_anlatci_1"],
+      "coverImage": "https://picsum.photos/seed/hobbit/400",
+      "description": "Orta Dünya’ya yapılan büyülü bir yolculuk."
+    },
+
+    {
+      "id": "work_golge_sahne",
+      "title": "Gölge Sahne",
+      "mainCategoryId": "cat_radyo_tiyatrosu",
+      "subCategoryIds": ["cat_tiyatro_modern"],
+      "creatorIds": ["person_anlatci_2"],
+      "coverImage": "https://picsum.photos/seed/golge/400",
+      "description": "Modern bir radyo tiyatrosu."
+    },
+
+    {
+      "id": "work_zamanin_kisa_tarihi",
+      "title": "Zamanın Kısa Tarihi",
+      "mainCategoryId": "cat_podcast",
+      "subCategoryIds": ["cat_kultur_sanat"],
+      "creatorIds": ["person_ikra_podcast"],
+      "coverImage": "https://picsum.photos/seed/zaman/400",
+      "description": "Bilim ve zaman kavramı üzerine sohbetler."
+    },
+    {
+      "id": "work_dusunce_defteri",
+      "title": "Düşünce Defteri",
+      "mainCategoryId": "cat_podcast",
+      "subCategoryIds": ["cat_kultur_sanat"],
+      "creatorIds": ["person_ikra_podcast"],
+      "coverImage": "https://picsum.photos/seed/dusunce/400",
+      "description": "Modern hayat üzerine kısa düşünce podcastleri."
+    },
+    {
+      "id": "work_kendinle_konus",
+      "title": "Kendinle Konuş",
+      "mainCategoryId": "cat_podcast",
+      "subCategoryIds": ["cat_kisisel_gelisim"],
+      "creatorIds": ["person_ikra_podcast"],
+      "coverImage": "https://picsum.photos/seed/kendinle/400",
+      "description": "Kişisel farkındalık üzerine sohbetler."
+    }
+  ],
+
+  "contents": [
+    {
+      "id": "content_iki_sehrin_yakasi",
+      "workId": "work_iki_sehrin_yakasi",
+      "title": "İki Şehrin Yakası",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "duration": "16:45:20",
+      "type": "audio"
+    },
+    {
+      "id": "content_suc_ve_ceza",
+      "workId": "work_suc_ve_ceza",
+      "title": "Suç ve Ceza",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "duration": "16:40:00",
+      "type": "audio"
+    },
+    {
+      "id": "content_1984",
+      "workId": "work_1984",
+      "title": "1984",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "duration": "9:20:15",
+      "type": "audio"
+    },
+    {
+      "id": "content_hobbit",
+      "workId": "work_hobbit",
+      "title": "Hobbit",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "duration": "9:30:20",
+      "type": "audio"
+    },
+    {
+      "id": "content_golge_sahne",
+      "workId": "work_golge_sahne",
+      "title": "Gölge Sahne",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "duration": "58:30",
+      "type": "audio"
+    },
+
+    {
+      "id": "content_zamanin_kisa_tarihi",
+      "workId": "work_zamanin_kisa_tarihi",
+      "title": "Zamanın Kısa Tarihi",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "duration": "41:10",
+      "type": "audio"
+    },
+    {
+      "id": "content_dusunce_defteri",
+      "workId": "work_dusunce_defteri",
+      "title": "Düşünce Defteri",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "duration": "42:15",
+      "type": "audio"
+    },
+    {
+      "id": "content_kendinle_konus",
+      "workId": "work_kendinle_konus",
+      "title": "Kendinle Konuş",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "duration": "35:40",
+      "type": "audio"
+    }
+  ]
+}
