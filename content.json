@@ -1,7 +1,6 @@
 {
-  "version": 4,
+  "version": 5,
   "lastUpdated": "2026-01-13T12:10:00Z",
-
   "categories": [
     { "id": "cat_sesli_kitap", "title": "Sesli Kitap", "type": "main" },
     { "id": "cat_radyo_tiyatrosu", "title": "Radyo Tiyatrosu", "type": "main" },
@@ -18,7 +17,6 @@
     { "id": "cat_kultur_sanat", "title": "Kültür & Sanat", "type": "sub", "parentId": "cat_podcast" },
     { "id": "cat_kisisel_gelisim", "title": "Kişisel Gelişim", "type": "sub", "parentId": "cat_podcast" }
   ],
-
   "persons": [
     {
       "id": "person_charles_dickens",
@@ -42,9 +40,18 @@
 
     { "id": "person_ikra_podcast", "name": "İkra Podcast", "role": "publisher" }
   ],
-
   "works": [
-  {
+    {
+      "id": "work_istanbul_hatirasi",
+      "title": "İstanbul Hatırası",
+      "contentId": "content_istanbul_hatirasi",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": ["cat_dunya_klasikleri"],
+      "creatorIds": ["person_charles_dickens", "person_anlatci_1"],
+      "coverImage": "https://picsum.photos/seed/ikisehir/400",
+      "description": "Fransız Devrimi fonunda geçen epik bir insanlık hikâyesi."
+    },
+    {
       "id": "work_incir_agaci",
       "title": "İncir Ağacı",
       "contentId": "content_incir_agaci",
@@ -84,7 +91,7 @@
       "coverImage": "https://picsum.photos/seed/1984/400",
       "description": "Totaliter rejimler üzerine distopik bir roman."
     },
-  {
+    {
       "id": "work_vakif_serisi",
       "title": "Vakıf Serisi",
       "contentId": "content_vakif_serisi",
@@ -145,7 +152,6 @@
       "description": "Kişisel farkındalık üzerine sohbetler."
     }
   ],
-
   "contents": [
     {
       "id": "content_incir_agaci",
@@ -193,6 +199,14 @@
       "title": "Hobbit",
       "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
       "duration": "9:30:20",
+      "type": "audio"
+    },
+    {
+      "id": "content_istanbul_hatirasi",
+      "workId": "work_istanbul_hatirasi",
+      "title": "İstanbul Hatırası",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "duration": "58:30",
       "type": "audio"
     },
     {
