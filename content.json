@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "lastUpdated": "2026-01-12T12:10:00Z",
+  "version": 4,
+  "lastUpdated": "2026-01-13T12:10:00Z",
 
   "categories": [
     { "id": "cat_sesli_kitap", "title": "Sesli Kitap", "type": "main" },
@@ -83,6 +83,16 @@
       "creatorIds": ["person_orwell", "person_anlatci_2"],
       "coverImage": "https://picsum.photos/seed/1984/400",
       "description": "Totaliter rejimler üzerine distopik bir roman."
+    },
+  {
+      "id": "work_vakif_serisi",
+      "title": "Vakıf Serisi",
+      "contentId": "content_vakif_serisi",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": ["cat_fantastik"],
+      "creatorIds": ["person_tolkien", "person_anlatci_1"],
+      "coverImage": "https://picsum.photos/seed/hobbit/400",
+      "description": "Orta Dünya’ya yapılan büyülü bir yolculuk."
     },
     {
       "id": "work_hobbit",
@@ -167,6 +177,14 @@
       "title": "1984",
       "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
       "duration": "9:20:15",
+      "type": "audio"
+    },
+    {
+      "id": "content_vakif_serisi",
+      "workId": "work_vakif_serisi",
+      "title": "Vakıf Serisi",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "duration": "9:30:20",
       "type": "audio"
     },
     {
