@@ -16,14 +16,7 @@
     {
       "id": "person_charles_dickens",
       "name": "Charles Dickens",
-      "role": "author",
-      "bio": "İngiliz edebiyatının en önemli yazarlarından biridir."
-    },
-    {
-      "id": "person_ahmet_umit",
-      "name": "Ahmet Ümit",
-      "role": "author",
-      "bio": "Türk polisiye romanları alanında en önemli yazarlarından biridir."
+      "role": "author"
     },
     {
       "id": "person_dostoyevski",
@@ -36,7 +29,7 @@
       "role": "author"
     },
     {
-      "id": "person_anlatci_1",
+      "id": "person_anlatici_1",
       "name": "Mert Günay",
       "role": "narrator"
     },
@@ -86,122 +79,84 @@
       "workId": "work_incir_agaci",
       "title": "İncir Ağacı",
       "type": "audio",
-
       "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-
       "durationSeconds": 60320,
-
-      "description": "İncir Ağacı, insan ilişkileri, vicdan ve toplumsal baskılar üzerine derinlikli bir anlatıdır.",
-
+      "description": "İncir Ağacı, insan ilişkileri ve vicdan üzerine derinlikli bir anlatıdır.",
       "authorId": "person_charles_dickens",
-      "narratorId": "person_anlatci_1",
-
+      "narratorId": "person_anlatici_1",
       "mainCategoryId": "cat_sesli_kitap",
       "subCategoryIds": ["cat_dunya_klasikleri"],
-
       "coverImage": "https://picsum.photos/seed/incir/600/600",
-
       "chapterCount": 18,
       "releaseYear": 2024,
       "language": "tr"
     },
-
     {
       "id": "content_suc_ve_ceza",
       "workId": "work_suc_ve_ceza",
       "title": "Suç ve Ceza",
       "type": "audio",
-
       "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
-
       "durationSeconds": 58800,
-
-      "description": "Suç ve Ceza, bireyin vicdanı ile toplum arasındaki çatışmayı ele alan psikolojik bir romandır.",
-
+      "description": "Suç ve Ceza, bireyin vicdanı ile toplum arasındaki çatışmayı ele alır.",
       "authorId": "person_dostoyevski",
-      "narratorId": "person_anlatci_1",
-
+      "narratorId": "person_anlatici_1",
       "mainCategoryId": "cat_sesli_kitap",
       "subCategoryIds": ["cat_psikoloji"],
-
       "coverImage": "https://picsum.photos/seed/suc/600/600",
-
       "chapterCount": 24,
       "releaseYear": 2023,
       "language": "tr"
     },
-
     {
       "id": "content_1984",
       "workId": "work_1984",
       "title": "1984",
       "type": "audio",
-
       "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
-
       "durationSeconds": 33615,
-
-      "description": "1984, totaliter rejimler, gözetim ve bireysel özgürlükler üzerine distopik bir romandır.",
-
+      "description": "1984, totaliter rejimler üzerine distopik bir romandır.",
       "authorId": "person_orwell",
-      "narratorId": "person_anlatci_1",
-
+      "narratorId": "person_anlatici_1",
       "mainCategoryId": "cat_sesli_kitap",
       "subCategoryIds": ["cat_dunya_klasikleri"],
-
       "coverImage": "https://picsum.photos/seed/1984/600/600",
-
       "chapterCount": 20,
       "releaseYear": 2022,
       "language": "tr"
     },
-
     {
       "id": "content_zamanin_kisa_tarihi",
       "workId": "work_zamanin_kisa_tarihi",
       "title": "Zamanın Kısa Tarihi",
       "type": "audio",
-
       "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
-
       "durationSeconds": 24700,
-
-      "description": "Zaman, evren ve bilim üzerine sade ve anlaşılır sohbetlerden oluşan bir podcast serisi.",
-
+      "description": "Bilim ve zaman kavramı üzerine sade anlatımlı bir podcast serisi.",
       "authorId": "person_ikra_podcast",
       "narratorId": "person_ikra_podcast",
-
       "mainCategoryId": "cat_podcast",
       "subCategoryIds": ["cat_kultur_sanat"],
-
       "coverImage": "https://picsum.photos/seed/zaman/600/600",
-
       "chapterCount": 12,
       "releaseYear": 2025,
       "language": "tr"
-    }
+    },
     {
       "id": "content_istanbul_hatirasi",
       "workId": "work_istanbul_hatirasi",
       "title": "İstanbul Hatırası",
       "type": "audio",
-
-      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
-
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
       "durationSeconds": 23700,
-
-      "description": "Zaman, evren ve bilim üzerine sade ve anlaşılır sohbetlerden oluşan bir podcast serisi.",
-
-      "authorId": "person_ikra_podcast",
-      "narratorId": "person_ikra_podcast",
-
-      "mainCategoryId": "cat_podcast",
-      "subCategoryIds": ["cat_kultur_sanat"],
-
-      "coverImage": "https://picsum.photos/seed/zaman/600/600",
-
-      "chapterCount": 12,
-      "releaseYear": 2025,
+      "description": "İstanbul’un tarihsel ve kültürel katmanlarını anlatan sesli bir eser.",
+      "authorId": "person_charles_dickens",
+      "narratorId": "person_anlatici_1",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": ["cat_dunya_klasikleri"],
+      "coverImage": "https://picsum.photos/seed/istanbul/600/600",
+      "chapterCount": 14,
+      "releaseYear": 2024,
       "language": "tr"
     }
   ]
