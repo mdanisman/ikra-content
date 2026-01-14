@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 3,
   "lastUpdated": "2026-01-14T10:30:00Z",
 
   "categories": [
@@ -18,6 +18,12 @@
       "name": "Charles Dickens",
       "role": "author",
       "bio": "İngiliz edebiyatının en önemli yazarlarından biridir."
+    },
+    {
+      "id": "person_ahmet_umit",
+      "name": "Ahmet Ümit",
+      "role": "author",
+      "bio": "Türk polisiye romanları alanında en önemli yazarlarından biridir."
     },
     {
       "id": "person_dostoyevski",
@@ -42,6 +48,12 @@
   ],
 
   "works": [
+    {
+      "id": "work_istanbul_hatirasi",
+      "title": "İstanbul Hatırası",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": ["cat_dunya_klasikleri"]
+    },
     {
       "id": "work_incir_agaci",
       "title": "İncir Ağacı",
@@ -153,6 +165,30 @@
       "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
 
       "durationSeconds": 24700,
+
+      "description": "Zaman, evren ve bilim üzerine sade ve anlaşılır sohbetlerden oluşan bir podcast serisi.",
+
+      "authorId": "person_ikra_podcast",
+      "narratorId": "person_ikra_podcast",
+
+      "mainCategoryId": "cat_podcast",
+      "subCategoryIds": ["cat_kultur_sanat"],
+
+      "coverImage": "https://picsum.photos/seed/zaman/600/600",
+
+      "chapterCount": 12,
+      "releaseYear": 2025,
+      "language": "tr"
+    }
+    {
+      "id": "content_istanbul_hatirasi",
+      "workId": "work_istanbul_hatirasi",
+      "title": "İstanbul Hatırası",
+      "type": "audio",
+
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+
+      "durationSeconds": 23700,
 
       "description": "Zaman, evren ve bilim üzerine sade ve anlaşılır sohbetlerden oluşan bir podcast serisi.",
 
