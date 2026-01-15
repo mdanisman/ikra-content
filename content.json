@@ -1,17 +1,41 @@
 {
-  "version": 4,
-  "lastUpdated": "2026-01-14T10:30:00Z",
-
+  "version": 5,
+  "lastUpdated": "2026-01-15T20:20:47.286579Z",
   "categories": [
-    { "id": "cat_sesli_kitap", "title": "Sesli Kitap", "type": "main" },
-    { "id": "cat_radyo_tiyatrosu", "title": "Radyo Tiyatrosu", "type": "main" },
-    { "id": "cat_podcast", "title": "Podcast Yayınları", "type": "main" },
-
-    { "id": "cat_dunya_klasikleri", "title": "Dünya Klasikleri", "type": "sub", "parentId": "cat_sesli_kitap" },
-    { "id": "cat_psikoloji", "title": "Psikoloji", "type": "sub", "parentId": "cat_sesli_kitap" },
-    { "id": "cat_kultur_sanat", "title": "Kültür & Sanat", "type": "sub", "parentId": "cat_podcast" }
+    {
+      "id": "cat_sesli_kitap",
+      "title": "Sesli Kitap",
+      "type": "main"
+    },
+    {
+      "id": "cat_radyo_tiyatrosu",
+      "title": "Radyo Tiyatrosu",
+      "type": "main"
+    },
+    {
+      "id": "cat_podcast",
+      "title": "Podcast Yayınları",
+      "type": "main"
+    },
+    {
+      "id": "cat_dunya_klasikleri",
+      "title": "Dünya Klasikleri",
+      "type": "sub",
+      "parentId": "cat_sesli_kitap"
+    },
+    {
+      "id": "cat_psikoloji",
+      "title": "Psikoloji",
+      "type": "sub",
+      "parentId": "cat_sesli_kitap"
+    },
+    {
+      "id": "cat_kultur_sanat",
+      "title": "Kültür & Sanat",
+      "type": "sub",
+      "parentId": "cat_podcast"
+    }
   ],
-
   "persons": [
     {
       "id": "person_charles_dickens",
@@ -37,42 +61,84 @@
       "id": "person_ikra_podcast",
       "name": "İkra Podcast",
       "role": "publisher"
+    },
+    {
+      "id": "person_ahmet_umit",
+      "name": "Ahmet Ümit",
+      "role": "author"
+    },
+    {
+      "id": "person_nisan_kumru",
+      "name": "Nisan Kumru",
+      "role": "narrator"
+    },
+    {
+      "id": "person_viktor_hugo",
+      "name": "Viktor Hugo",
+      "role": "author"
+    },
+    {
+      "id": "person_hasan_can",
+      "name": "Hasan Can",
+      "role": "narrator"
     }
   ],
-
   "works": [
     {
       "id": "work_istanbul_hatirasi",
       "title": "İstanbul Hatırası",
       "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": ["cat_dunya_klasikleri"]
+      "subCategoryIds": [
+        "cat_dunya_klasikleri"
+      ]
     },
     {
       "id": "work_incir_agaci",
       "title": "İncir Ağacı",
       "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": ["cat_dunya_klasikleri"]
+      "subCategoryIds": [
+        "cat_dunya_klasikleri"
+      ]
     },
     {
       "id": "work_suc_ve_ceza",
       "title": "Suç ve Ceza",
       "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": ["cat_psikoloji"]
+      "subCategoryIds": [
+        "cat_psikoloji"
+      ]
     },
     {
       "id": "work_1984",
       "title": "1984",
       "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": ["cat_dunya_klasikleri"]
+      "subCategoryIds": [
+        "cat_dunya_klasikleri"
+      ]
     },
     {
       "id": "work_zamanin_kisa_tarihi",
       "title": "Zamanın Kısa Tarihi",
       "mainCategoryId": "cat_podcast",
-      "subCategoryIds": ["cat_kultur_sanat"]
+      "subCategoryIds": [
+        "cat_kultur_sanat"
+      ]
+    },
+    {
+      "id": "work_yirtici_kuslar_zamani",
+      "title": "Yırtıcı Kuşlar Zamanı",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": []
+    },
+    {
+      "id": "work_sefiller",
+      "title": "Sefiller",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [
+        "cat_dunya_klasikleri"
+      ]
     }
   ],
-
   "contents": [
     {
       "id": "content_incir_agaci",
@@ -85,7 +151,9 @@
       "authorId": "person_charles_dickens",
       "narratorId": "person_anlatici_1",
       "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": ["cat_dunya_klasikleri"],
+      "subCategoryIds": [
+        "cat_dunya_klasikleri"
+      ],
       "coverImage": "https://picsum.photos/seed/incir/600/600",
       "chapterCount": 18,
       "releaseYear": 2024,
@@ -102,7 +170,9 @@
       "authorId": "person_dostoyevski",
       "narratorId": "person_anlatici_1",
       "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": ["cat_psikoloji"],
+      "subCategoryIds": [
+        "cat_psikoloji"
+      ],
       "coverImage": "https://picsum.photos/seed/suc/600/600",
       "chapterCount": 24,
       "releaseYear": 2023,
@@ -119,7 +189,9 @@
       "authorId": "person_orwell",
       "narratorId": "person_anlatici_1",
       "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": ["cat_dunya_klasikleri"],
+      "subCategoryIds": [
+        "cat_dunya_klasikleri"
+      ],
       "coverImage": "https://picsum.photos/seed/1984/600/600",
       "chapterCount": 20,
       "releaseYear": 2022,
@@ -136,7 +208,9 @@
       "authorId": "person_ikra_podcast",
       "narratorId": "person_ikra_podcast",
       "mainCategoryId": "cat_podcast",
-      "subCategoryIds": ["cat_kultur_sanat"],
+      "subCategoryIds": [
+        "cat_kultur_sanat"
+      ],
       "coverImage": "https://picsum.photos/seed/zaman/600/600",
       "chapterCount": 12,
       "releaseYear": 2025,
@@ -153,10 +227,48 @@
       "authorId": "person_charles_dickens",
       "narratorId": "person_anlatici_1",
       "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": ["cat_dunya_klasikleri"],
+      "subCategoryIds": [
+        "cat_dunya_klasikleri"
+      ],
       "coverImage": "https://picsum.photos/seed/istanbul/600/600",
       "chapterCount": 14,
       "releaseYear": 2024,
+      "language": "tr"
+    },
+    {
+      "id": "content_yirtici_kuslar_zamani",
+      "workId": "work_yirtici_kuslar_zamani",
+      "title": "Yırtıcı Kuşlar Zamanı",
+      "type": "audio",
+      "audioUrl": "https://youtube.com/wewıewr/xyz.mp3",
+      "durationSeconds": 2855,
+      "description": "",
+      "authorId": "person_ahmet_umit",
+      "narratorId": "person_nisan_kumru",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [],
+      "coverImage": "https://photos.com/wewıewr/xyz.jpeg",
+      "chapterCount": 0,
+      "releaseYear": 2023,
+      "language": "tr"
+    },
+    {
+      "id": "content_sefiller",
+      "workId": "work_sefiller",
+      "title": "Sefiller",
+      "type": "audio",
+      "audioUrl": "https://youtube.com",
+      "durationSeconds": 7250,
+      "description": "",
+      "authorId": "person_viktor_hugo",
+      "narratorId": "person_hasan_can",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [
+        "cat_dunya_klasikleri"
+      ],
+      "coverImage": "https://youtube.com/deneme",
+      "chapterCount": 0,
+      "releaseYear": 1896,
       "language": "tr"
     }
   ]
