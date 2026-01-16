@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "lastUpdated": "2026-01-15T20:20:47.286579Z",
+  "version": 6,
+  "lastUpdated": "2026-01-16T08:10:51.074042Z",
   "categories": [
     {
       "id": "cat_sesli_kitap",
@@ -81,6 +81,16 @@
       "id": "person_hasan_can",
       "name": "Hasan Can",
       "role": "narrator"
+    },
+    {
+      "id": "person_bebar_bilim",
+      "name": "Bebar Bilim",
+      "role": "author"
+    },
+    {
+      "id": "person_bebar_bilim",
+      "name": "Bebar Bilim",
+      "role": "narrator"
     }
   ],
   "works": [
@@ -137,6 +147,12 @@
       "subCategoryIds": [
         "cat_dunya_klasikleri"
       ]
+    },
+    {
+      "id": "work_hicbir_sey_tesaduf_degil",
+      "title": "Hiçbir şey Tesadüf Değil",
+      "mainCategoryId": "cat_podcast",
+      "subCategoryIds": []
     }
   ],
   "contents": [
@@ -269,6 +285,23 @@
       "coverImage": "https://youtube.com/deneme",
       "chapterCount": 0,
       "releaseYear": 1896,
+      "language": "tr"
+    },
+    {
+      "id": "content_hicbir_sey_tesaduf_degil",
+      "workId": "work_hicbir_sey_tesaduf_degil",
+      "title": "Hiçbir şey Tesadüf Değil",
+      "type": "audio",
+      "audioUrl": "https://youtube.com",
+      "durationSeconds": 800,
+      "description": "",
+      "authorId": "person_bebar_bilim",
+      "narratorId": "person_bebar_bilim",
+      "mainCategoryId": "cat_podcast",
+      "subCategoryIds": [],
+      "coverImage": "https://youtube.com/eseedc.jpeg",
+      "chapterCount": 0,
+      "releaseYear": 2023,
       "language": "tr"
     }
   ]
