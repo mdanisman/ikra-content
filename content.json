@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "lastUpdated": "2026-01-16T08:10:51.074042Z",
+  "lastUpdated": "2026-01-16T20:58:34.995122Z",
   "categories": [
     {
       "id": "cat_sesli_kitap",
@@ -88,7 +88,7 @@
       "role": "author"
     },
     {
-      "id": "person_bebar_bilim",
+      "id": "person_bebar_bilim_narrator",
       "name": "Bebar Bilim",
       "role": "narrator"
     }
@@ -157,6 +157,14 @@
     {
       "id": "work_i_nsan_ne_i_le_yasar",
       "title": "İnsan Ne İle Yaşar?",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [
+        "cat_dunya_klasikleri"
+      ]
+    },
+    {
+      "id": "work_denemeler",
+      "title": "Denemeler",
       "mainCategoryId": "cat_sesli_kitap",
       "subCategoryIds": [
         "cat_dunya_klasikleri"
@@ -311,7 +319,25 @@
       "chapterCount": 0,
       "releaseYear": 2023,
       "language": "tr"
+    },
+    {
+      "id": "content_denemeler",
+      "workId": "work_denemeler",
+      "title": "Denemeler",
+      "type": "audio",
+      "audioUrl": "https://technolook.com.tr",
+      "durationSeconds": 4582,
+      "description": "Test Açıklaması Yazdım.",
+      "authorId": "person_dostoyevski",
+      "narratorId": "person_nisan_kumru",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [
+        "cat_dunya_klasikleri"
+      ],
+      "coverImage": "https://technolook.com.tr/image.jpeg",
+      "chapterCount": 0,
+      "releaseYear": 1798,
+      "language": "tr"
     }
   ]
-
 }
