@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "lastUpdated": "2026-01-16T08:10:51.074042Z",
   "categories": [
     {
@@ -313,4 +313,5 @@
       "language": "tr"
     }
   ]
+
 }
