@@ -1,6 +1,6 @@
 {
-  "version": 7,
-  "lastUpdated": "2026-01-16T20:58:34.995122Z",
+  "version": 2,
+  "lastUpdated": "2026-01-16T21:31:30.581901Z",
   "categories": [
     {
       "id": "cat_sesli_kitap",
@@ -38,133 +38,20 @@
   ],
   "persons": [
     {
-      "id": "person_charles_dickens",
-      "name": "Charles Dickens",
-      "role": "author"
-    },
-    {
-      "id": "person_dostoyevski",
+      "id": "person_fyodor_dostoyevski_author",
       "name": "Fyodor Dostoyevski",
       "role": "author"
     },
     {
-      "id": "person_orwell",
-      "name": "George Orwell",
-      "role": "author"
-    },
-    {
-      "id": "person_anlatici_1",
-      "name": "Mert Günay",
-      "role": "narrator"
-    },
-    {
-      "id": "person_ikra_podcast",
-      "name": "İkra Podcast",
-      "role": "publisher"
-    },
-    {
-      "id": "person_ahmet_umit",
-      "name": "Ahmet Ümit",
-      "role": "author"
-    },
-    {
-      "id": "person_nisan_kumru",
+      "id": "person_nisan_kumru_narrator",
       "name": "Nisan Kumru",
-      "role": "narrator"
-    },
-    {
-      "id": "person_viktor_hugo",
-      "name": "Viktor Hugo",
-      "role": "author"
-    },
-    {
-      "id": "person_hasan_can",
-      "name": "Hasan Can",
-      "role": "narrator"
-    },
-    {
-      "id": "person_bebar_bilim",
-      "name": "Bebar Bilim",
-      "role": "author"
-    },
-    {
-      "id": "person_bebar_bilim_narrator",
-      "name": "Bebar Bilim",
       "role": "narrator"
     }
   ],
   "works": [
     {
-      "id": "work_istanbul_hatirasi",
-      "title": "İstanbul Hatırası",
-      "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": [
-        "cat_dunya_klasikleri"
-      ]
-    },
-    {
-      "id": "work_incir_agaci",
-      "title": "İncir Ağacı",
-      "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": [
-        "cat_dunya_klasikleri"
-      ]
-    },
-    {
-      "id": "work_suc_ve_ceza",
-      "title": "Suç ve Ceza",
-      "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": [
-        "cat_psikoloji"
-      ]
-    },
-    {
-      "id": "work_1984",
-      "title": "1984",
-      "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": [
-        "cat_dunya_klasikleri"
-      ]
-    },
-    {
-      "id": "work_zamanin_kisa_tarihi",
-      "title": "Zamanın Kısa Tarihi",
-      "mainCategoryId": "cat_podcast",
-      "subCategoryIds": [
-        "cat_kultur_sanat"
-      ]
-    },
-    {
-      "id": "work_yirtici_kuslar_zamani",
-      "title": "Yırtıcı Kuşlar Zamanı",
-      "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": []
-    },
-    {
-      "id": "work_sefiller",
-      "title": "Sefiller",
-      "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": [
-        "cat_dunya_klasikleri"
-      ]
-    },
-    {
-      "id": "work_hicbir_sey_tesaduf_degil",
-      "title": "Hiçbir şey Tesadüf Değil",
-      "mainCategoryId": "cat_podcast",
-      "subCategoryIds": []
-    },
-    {
-      "id": "work_i_nsan_ne_i_le_yasar",
-      "title": "İnsan Ne İle Yaşar?",
-      "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": [
-        "cat_dunya_klasikleri"
-      ]
-    },
-    {
-      "id": "work_denemeler",
-      "title": "Denemeler",
+      "id": "work_insan_ne_ile_yasar",
+      "title": "İnsan ne ile yaşar?",
       "mainCategoryId": "cat_sesli_kitap",
       "subCategoryIds": [
         "cat_dunya_klasikleri"
@@ -173,170 +60,22 @@
   ],
   "contents": [
     {
-      "id": "content_incir_agaci",
-      "workId": "work_incir_agaci",
-      "title": "İncir Ağacı",
-      "type": "audio",
-      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-      "durationSeconds": 60320,
-      "description": "İncir Ağacı, insan ilişkileri ve vicdan üzerine derinlikli bir anlatıdır.",
-      "authorId": "person_charles_dickens",
-      "narratorId": "person_anlatici_1",
-      "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": [
-        "cat_dunya_klasikleri"
-      ],
-      "coverImage": "https://picsum.photos/seed/incir/600/600",
-      "chapterCount": 18,
-      "releaseYear": 2024,
-      "language": "tr"
-    },
-    {
-      "id": "content_suc_ve_ceza",
-      "workId": "work_suc_ve_ceza",
-      "title": "Suç ve Ceza",
-      "type": "audio",
-      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
-      "durationSeconds": 58800,
-      "description": "Suç ve Ceza, bireyin vicdanı ile toplum arasındaki çatışmayı ele alır.",
-      "authorId": "person_dostoyevski",
-      "narratorId": "person_anlatici_1",
-      "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": [
-        "cat_psikoloji"
-      ],
-      "coverImage": "https://picsum.photos/seed/suc/600/600",
-      "chapterCount": 24,
-      "releaseYear": 2023,
-      "language": "tr"
-    },
-    {
-      "id": "content_1984",
-      "workId": "work_1984",
-      "title": "1984",
-      "type": "audio",
-      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
-      "durationSeconds": 33615,
-      "description": "1984, totaliter rejimler üzerine distopik bir romandır.",
-      "authorId": "person_orwell",
-      "narratorId": "person_anlatici_1",
-      "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": [
-        "cat_dunya_klasikleri"
-      ],
-      "coverImage": "https://picsum.photos/seed/1984/600/600",
-      "chapterCount": 20,
-      "releaseYear": 2022,
-      "language": "tr"
-    },
-    {
-      "id": "content_zamanin_kisa_tarihi",
-      "workId": "work_zamanin_kisa_tarihi",
-      "title": "Zamanın Kısa Tarihi",
+      "id": "content_insan_ne_ile_yasar",
+      "workId": "work_insan_ne_ile_yasar",
+      "title": "İnsan ne ile yaşar?",
       "type": "audio",
       "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
-      "durationSeconds": 24700,
-      "description": "Bilim ve zaman kavramı üzerine sade anlatımlı bir podcast serisi.",
-      "authorId": "person_ikra_podcast",
-      "narratorId": "person_ikra_podcast",
-      "mainCategoryId": "cat_podcast",
-      "subCategoryIds": [
-        "cat_kultur_sanat"
-      ],
-      "coverImage": "https://picsum.photos/seed/zaman/600/600",
-      "chapterCount": 12,
-      "releaseYear": 2025,
-      "language": "tr"
-    },
-    {
-      "id": "content_istanbul_hatirasi",
-      "workId": "work_istanbul_hatirasi",
-      "title": "İstanbul Hatırası",
-      "type": "audio",
-      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
-      "durationSeconds": 23700,
-      "description": "Komiser Nevzat'ın maceralarını anlatan sesli bir eser.",
-      "authorId": "person_charles_dickens",
-      "narratorId": "person_anlatici_1",
+      "durationSeconds": 7895,
+      "description": "İnsan Ne İle Yaşar, 1885'de Rus yazar Lev Tolstoy'un yazdığı kısa hikâyedir. 1885'de yayınlanan İnsan Ne İle Yaşar ve Diğer Hikayeler adlı kitapta yer alan kısa öykülerden biridir.",
+      "authorId": "person_fyodor_dostoyevski_author",
+      "narratorId": "person_nisan_kumru_narrator",
       "mainCategoryId": "cat_sesli_kitap",
       "subCategoryIds": [
         "cat_dunya_klasikleri"
       ],
       "coverImage": "https://picsum.photos/seed/istanbul/600/600",
-      "chapterCount": 14,
-      "releaseYear": 2024,
-      "language": "tr"
-    },
-    {
-      "id": "content_yirtici_kuslar_zamani",
-      "workId": "work_yirtici_kuslar_zamani",
-      "title": "Yırtıcı Kuşlar Zamanı",
-      "type": "audio",
-      "audioUrl": "https://youtube.com/wewıewr/xyz.mp3",
-      "durationSeconds": 2855,
-      "description": "",
-      "authorId": "person_ahmet_umit",
-      "narratorId": "person_nisan_kumru",
-      "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": [],
-      "coverImage": "https://photos.com/wewıewr/xyz.jpeg",
       "chapterCount": 0,
-      "releaseYear": 2023,
-      "language": "tr"
-    },
-    {
-      "id": "content_sefiller",
-      "workId": "work_sefiller",
-      "title": "Sefiller",
-      "type": "audio",
-      "audioUrl": "https://youtube.com",
-      "durationSeconds": 7250,
-      "description": "",
-      "authorId": "person_viktor_hugo",
-      "narratorId": "person_hasan_can",
-      "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": [
-        "cat_dunya_klasikleri"
-      ],
-      "coverImage": "https://youtube.com/deneme",
-      "chapterCount": 0,
-      "releaseYear": 1896,
-      "language": "tr"
-    },
-    {
-      "id": "content_hicbir_sey_tesaduf_degil",
-      "workId": "work_hicbir_sey_tesaduf_degil",
-      "title": "Hiçbir şey Tesadüf Değil",
-      "type": "audio",
-      "audioUrl": "https://youtube.com",
-      "durationSeconds": 800,
-      "description": "",
-      "authorId": "person_bebar_bilim",
-      "narratorId": "person_bebar_bilim",
-      "mainCategoryId": "cat_podcast",
-      "subCategoryIds": [],
-      "coverImage": "https://youtube.com/eseedc.jpeg",
-      "chapterCount": 0,
-      "releaseYear": 2023,
-      "language": "tr"
-    },
-    {
-      "id": "content_denemeler",
-      "workId": "work_denemeler",
-      "title": "Denemeler",
-      "type": "audio",
-      "audioUrl": "https://technolook.com.tr",
-      "durationSeconds": 4582,
-      "description": "Test Açıklaması Yazdım.",
-      "authorId": "person_dostoyevski",
-      "narratorId": "person_nisan_kumru",
-      "mainCategoryId": "cat_sesli_kitap",
-      "subCategoryIds": [
-        "cat_dunya_klasikleri"
-      ],
-      "coverImage": "https://technolook.com.tr/image.jpeg",
-      "chapterCount": 0,
-      "releaseYear": 1798,
+      "releaseYear": 1899,
       "language": "tr"
     }
   ]
