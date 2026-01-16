@@ -153,6 +153,14 @@
       "title": "Hiçbir şey Tesadüf Değil",
       "mainCategoryId": "cat_podcast",
       "subCategoryIds": []
+    },
+    {
+      "id": "work_i_nsan_ne_i_le_yasar",
+      "title": "İnsan Ne İle Yaşar?",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [
+        "cat_dunya_klasikleri"
+      ]
     }
   ],
   "contents": [
