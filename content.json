@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-01-16T21:31:30.581901Z",
+  "lastUpdated": "2026-01-18T20:52:32.374657+00:00",
   "categories": [
     {
       "id": "cat_sesli_kitap",
@@ -14,12 +14,18 @@
     },
     {
       "id": "cat_podcast",
-      "title": "Podcast Yayınları",
+      "title": "Podcast",
       "type": "main"
     },
     {
       "id": "cat_dunya_klasikleri",
       "title": "Dünya Klasikleri",
+      "type": "sub",
+      "parentId": "cat_sesli_kitap"
+    },
+    {
+      "id": "cat_turk_klasikleri",
+      "title": "Türk Klasikleri",
       "type": "sub",
       "parentId": "cat_sesli_kitap"
     },
@@ -30,52 +36,369 @@
       "parentId": "cat_sesli_kitap"
     },
     {
+      "id": "cat_fantastik",
+      "title": "Fantastik",
+      "type": "sub",
+      "parentId": "cat_sesli_kitap"
+    },
+    {
+      "id": "cat_tiyatro_klasik",
+      "title": "Klasik Tiyatro",
+      "type": "sub",
+      "parentId": "cat_radyo_tiyatrosu"
+    },
+    {
+      "id": "cat_tiyatro_modern",
+      "title": "Modern Tiyatro",
+      "type": "sub",
+      "parentId": "cat_radyo_tiyatrosu"
+    },
+    {
       "id": "cat_kultur_sanat",
       "title": "Kültür & Sanat",
+      "type": "sub",
+      "parentId": "cat_podcast"
+    },
+    {
+      "id": "cat_kisisel_gelisim",
+      "title": "Kişisel Gelişim",
       "type": "sub",
       "parentId": "cat_podcast"
     }
   ],
   "persons": [
     {
-      "id": "person_fyodor_dostoyevski_author",
+      "id": "person_dostoyevski",
       "name": "Fyodor Dostoyevski",
+      "role": "author",
+      "bio": "Rus edebiyatının en önemli yazarlarından biridir."
+    },
+    {
+      "id": "person_orwell",
+      "name": "George Orwell",
       "role": "author"
     },
     {
-      "id": "person_nisan_kumru_narrator",
-      "name": "Nisan Kumru",
+      "id": "person_sabahattin_ali",
+      "name": "Sabahattin Ali",
+      "role": "author"
+    },
+    {
+      "id": "person_oguz_atay",
+      "name": "Oğuz Atay",
+      "role": "author"
+    },
+    {
+      "id": "person_tolkien",
+      "name": "J.R.R. Tolkien",
+      "role": "author"
+    },
+    {
+      "id": "person_anlatici_1",
+      "name": "Mert Günay",
+      "role": "narrator"
+    },
+    {
+      "id": "person_anlatci_2",
+      "name": "Ayşe Kaya",
+      "role": "narrator"
+    },
+    {
+      "id": "person_ikra_podcast",
+      "name": "İkra Podcast",
+      "role": "publisher"
+    },
+    {
+      "id": "person_ahmet_umit_author",
+      "name": "Ahmet Ümit",
+      "role": "author"
+    },
+    {
+      "id": "person_ender_simer_narrator",
+      "name": "Ender Sımer",
+      "role": "narrator"
+    },
+    {
+      "id": "person_muzaffer_tunca_author",
+      "name": "Muzaffer Tunca",
+      "role": "author"
+    },
+    {
+      "id": "person_ikra_podcast_narrator",
+      "name": "İkra Podcast",
       "role": "narrator"
     }
   ],
   "works": [
     {
-      "id": "work_insan_ne_ile_yasar",
-      "title": "İnsan ne ile yaşar?",
+      "id": "work_suc_ve_ceza",
+      "title": "Suç ve Ceza",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [
+        "cat_dunya_klasikleri",
+        "cat_psikoloji"
+      ],
+      "creatorIds": [
+        "person_dostoyevski",
+        "person_anlatici_1"
+      ],
+      "coverImage": "https://picsum.photos/seed/sucveceza/400",
+      "description": "Suç, vicdan ve ahlaki sorgulamalar üzerine bir başyapıt.",
+      "contentId": "content_suc_ve_ceza"
+    },
+    {
+      "id": "work_1984",
+      "title": "1984",
       "mainCategoryId": "cat_sesli_kitap",
       "subCategoryIds": [
         "cat_dunya_klasikleri"
+      ],
+      "creatorIds": [
+        "person_orwell",
+        "person_anlatci_2"
+      ],
+      "coverImage": "https://picsum.photos/seed/1984/400",
+      "description": "Totaliter rejimler üzerine distopik bir roman.",
+      "contentId": "content_1984"
+    },
+    {
+      "id": "work_kurk_mantolu_madonna",
+      "title": "Kürk Mantolu Madonna",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [
+        "cat_turk_klasikleri"
+      ],
+      "creatorIds": [
+        "person_sabahattin_ali",
+        "person_anlatici_1"
+      ],
+      "coverImage": "https://picsum.photos/seed/madonna/400",
+      "description": "İçsel yalnızlık ve aşk üzerine unutulmaz bir eser.",
+      "contentId": "content_kurk_mantolu_madonna"
+    },
+    {
+      "id": "work_tutunamayanlar",
+      "title": "Tutunamayanlar",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [
+        "cat_turk_klasikleri"
+      ],
+      "creatorIds": [
+        "person_oguz_atay",
+        "person_anlatci_2"
+      ],
+      "coverImage": "https://picsum.photos/seed/tutunamayanlar/400",
+      "description": "Modern bireyin yabancılaşmasını anlatan kült roman.",
+      "contentId": "content_tutunamayanlar"
+    },
+    {
+      "id": "work_hobbit",
+      "title": "Hobbit",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [
+        "cat_fantastik"
+      ],
+      "creatorIds": [
+        "person_tolkien",
+        "person_anlatici_1"
+      ],
+      "coverImage": "https://picsum.photos/seed/hobbit/400",
+      "description": "Orta Dünya'ya yapılan büyülü bir yolculuk.",
+      "contentId": "content_hobbit"
+    },
+    {
+      "id": "work_golge_sahne",
+      "title": "Gölge Sahne",
+      "mainCategoryId": "cat_radyo_tiyatrosu",
+      "subCategoryIds": [
+        "cat_tiyatro_modern"
+      ],
+      "creatorIds": [
+        "person_anlatici_1"
+      ],
+      "coverImage": "https://picsum.photos/seed/golge/400",
+      "description": "Modern bir radyo tiyatrosu.",
+      "contentId": "content_golge_sahne"
+    },
+    {
+      "id": "work_dusunce_defteri",
+      "title": "Düşünce Defteri",
+      "mainCategoryId": "cat_podcast",
+      "subCategoryIds": [
+        "cat_kultur_sanat"
+      ],
+      "creatorIds": [
+        "person_ikra_podcast"
+      ],
+      "coverImage": "https://picsum.photos/seed/dusunce/400",
+      "description": "Modern hayat üzerine kısa düşünce podcastleri.",
+      "contentId": "content_dusunce_defteri"
+    },
+    {
+      "id": "work_istanbul_hatirasi_ahmet",
+      "title": "İstanbul Hatırası",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": []
+    },
+    {
+      "id": "work_dusunce_defteri_muzaffer",
+      "title": "Düşünce Defteri",
+      "mainCategoryId": "cat_podcast",
+      "subCategoryIds": [
+        "cat_kultur_sanat"
       ]
     }
   ],
   "contents": [
     {
-      "id": "content_insan_ne_ile_yasar",
-      "workId": "work_insan_ne_ile_yasar",
-      "title": "İnsan ne ile yaşar?",
+      "id": "content_suc_ve_ceza",
+      "workId": "work_suc_ve_ceza",
+      "title": "Suç ve Ceza",
       "type": "audio",
-      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
-      "durationSeconds": 7895,
-      "description": "İnsan Ne İle Yaşar, 1885'de Rus yazar Lev Tolstoy'un yazdığı kısa hikâyedir. 1885'de yayınlanan İnsan Ne İle Yaşar ve Diğer Hikayeler adlı kitapta yer alan kısa öykülerden biridir.",
-      "authorId": "person_fyodor_dostoyevski_author",
-      "narratorId": "person_nisan_kumru_narrator",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "durationSeconds": 60320,
+      "description": "Suç ve Ceza, bireyin vicdanı ile toplum arasındaki çatışmayı ele alan psikolojik bir romandır. Raskolnikov'un içsel hesaplaşması, suç, ceza ve adalet kavramlarını derinlemesine sorgular.",
+      "authorId": "person_dostoyevski",
+      "narratorId": "person_anlatici_1",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [
+        "cat_dunya_klasikleri",
+        "cat_psikoloji"
+      ],
+      "coverImage": "https://picsum.photos/seed/sucveceza/400",
+      "chapterCount": 24,
+      "releaseYear": 2023,
+      "language": "tr"
+    },
+    {
+      "id": "content_1984",
+      "workId": "work_1984",
+      "title": "1984",
+      "type": "audio",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-17.mp3",
+      "durationSeconds": 33615,
+      "description": "1984, totaliter rejimler, gözetim ve bireysel özgürlükler üzerine distopik bir romandır. George Orwell'in geleceğe dair karamsar vizyonu bugün daha da anlamlı.",
+      "authorId": "person_orwell",
+      "narratorId": "person_anlatci_2",
       "mainCategoryId": "cat_sesli_kitap",
       "subCategoryIds": [
         "cat_dunya_klasikleri"
       ],
-      "coverImage": "https://picsum.photos/seed/istanbul/600/600",
-      "chapterCount": 0,
-      "releaseYear": 1899,
+      "coverImage": "https://picsum.photos/seed/1984/400",
+      "chapterCount": 20,
+      "releaseYear": 2022,
+      "language": "tr"
+    },
+    {
+      "id": "content_kurk_mantolu_madonna",
+      "workId": "work_kurk_mantolu_madonna",
+      "title": "Kürk Mantolu Madonna",
+      "type": "audio",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "durationSeconds": 16215,
+      "description": "İçsel yalnızlık ve aşk üzerine unutulmaz bir eser. Sabahattin Ali'nin en bilinen romanı, trajik bir aşk hikayesidir.",
+      "authorId": "person_sabahattin_ali",
+      "narratorId": "person_anlatici_1",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [
+        "cat_turk_klasikleri"
+      ],
+      "coverImage": "https://picsum.photos/seed/madonna/400",
+      "chapterCount": 15,
+      "releaseYear": 2024,
+      "language": "tr"
+    },
+    {
+      "id": "content_tutunamayanlar",
+      "workId": "work_tutunamayanlar",
+      "title": "Tutunamayanlar",
+      "type": "audio",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "durationSeconds": 45600,
+      "description": "Modern bireyin yabancılaşmasını anlatan kült roman. Oğuz Atay'ın başyapıtı, Türk edebiyatının dönüm noktalarından biridir.",
+      "authorId": "person_oguz_atay",
+      "narratorId": "person_anlatci_2",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [
+        "cat_turk_klasikleri"
+      ],
+      "coverImage": "https://picsum.photos/seed/tutunamayanlar/400",
+      "chapterCount": 28,
+      "releaseYear": 2023,
+      "language": "tr"
+    },
+    {
+      "id": "content_hobbit",
+      "workId": "work_hobbit",
+      "title": "Hobbit",
+      "type": "audio",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-36.mp3",
+      "durationSeconds": 34220,
+      "description": "Orta Dünya'ya yapılan büyülü bir yolculuk. Bilbo Baggins'in macera dolu hikayesi, fantastik edebiyatın en sevilen eserlerinden.",
+      "authorId": "person_tolkien",
+      "narratorId": "person_anlatici_1",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [
+        "cat_fantastik"
+      ],
+      "coverImage": "https://picsum.photos/seed/hobbit/400",
+      "chapterCount": 19,
+      "releaseYear": 2024,
+      "language": "tr"
+    },
+    {
+      "id": "content_golge_sahne",
+      "workId": "work_golge_sahne",
+      "title": "Gölge Sahne",
+      "type": "audio",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "durationSeconds": 3510,
+      "description": "Modern bir radyo tiyatrosu. Günümüz insanının iç dünyasını keşfeden özgün bir yapım.",
+      "authorId": "person_anlatici_1",
+      "narratorId": "person_anlatici_1",
+      "mainCategoryId": "cat_radyo_tiyatrosu",
+      "subCategoryIds": [
+        "cat_tiyatro_modern"
+      ],
+      "coverImage": "https://picsum.photos/seed/golge/400",
+      "chapterCount": 1,
+      "releaseYear": 2025,
+      "language": "tr"
+    },
+    {
+      "id": "content_dusunce_defteri",
+      "workId": "work_dusunce_defteri_muzaffer",
+      "title": "Düşünce Defteri",
+      "type": "audio",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-32.mp3",
+      "durationSeconds": 2535,
+      "description": "Modern hayat üzerine kısa düşünce podcastleri. Gündelik yaşam, sanat ve kültür konularında samimi sohbetler.",
+      "authorId": "person_muzaffer_tunca_author",
+      "narratorId": "person_ikra_podcast_narrator",
+      "mainCategoryId": "cat_podcast",
+      "subCategoryIds": [
+        "cat_kultur_sanat"
+      ],
+      "coverImage": "https://picsum.photos/seed/dusunce/400",
+      "chapterCount": 8,
+      "releaseYear": 2025,
+      "language": "tr"
+    },
+    {
+      "id": "content_istanbul_hatirasi",
+      "workId": "work_istanbul_hatirasi_ahmet",
+      "title": "İstanbul Hatırası",
+      "type": "audio",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "durationSeconds": 4500,
+      "description": "Komiser Nevzatın maceralarının anlatıldığı polisiye türünde roman.",
+      "authorId": "person_ahmet_umit_author",
+      "narratorId": "person_ender_simer_narrator",
+      "mainCategoryId": "cat_sesli_kitap",
+      "subCategoryIds": [],
+      "coverImage": "https://picsum.photos/seed/sucveceza/400",
+      "chapterCount": 34,
+      "releaseYear": 2010,
       "language": "tr"
     }
   ]
