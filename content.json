@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-01-19T06:34:22.547209+00:00",
+  "lastUpdated": "2026-01-19T07:20:25.470341+00:00",
   "categories": [
     {
       "id": "cat_sesli_kitap",
@@ -425,7 +425,7 @@
       "type": "audio",
       "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
       "durationSeconds": 5500,
-      "description": "Yıl 1939. Avrupa savaşın eşiğindedir. Her biri ürkütücü sırlar taşıyan on kişi, Devon kıyısında bulunan Asker Adası’ndaki ıssız bir malikâneye davet edilirler.",
+      "description": "Yıl 1939. Avrupa savaşın eşiğindedir. Her biri ürkütücü sırlar taşıyan on kişi, Devon kıyısında bulunan Asker Adası’ndaki ıssız bir malikâneye davet edilirler. Ancak malikâneye giden grubu bir sürpriz beklemektedir, zira ev sahibi Bay ve Bayan Owen ortalarda yoktur. Geçmişlerindeki karanlık sırlardan başka hiçbir şeyleri olmayan bu insanlar adada mahsur kalmışlardır. Konuklar bir süre sonra gizledikleri sırları birbirlerine anlatmaya ve teker teker ölmeye başlarlar.",
       "authorId": "person_agatha_christie_author",
       "narratorId": "person_cigdem_oztekin_narrator",
       "mainCategoryId": "cat_radyo_tiyatrosu",
