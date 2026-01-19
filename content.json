@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-01-18T20:52:32.374657+00:00",
+  "lastUpdated": "2026-01-19T06:34:22.547209+00:00",
   "categories": [
     {
       "id": "cat_sesli_kitap",
@@ -127,6 +127,16 @@
       "id": "person_ikra_podcast_narrator",
       "name": "İkra Podcast",
       "role": "narrator"
+    },
+    {
+      "id": "person_agatha_christie_author",
+      "name": "Agatha Christie",
+      "role": "author"
+    },
+    {
+      "id": "person_cigdem_oztekin_narrator",
+      "name": "Çiğdem Öztekin",
+      "role": "narrator"
     }
   ],
   "works": [
@@ -247,6 +257,13 @@
       "subCategoryIds": [
         "cat_kultur_sanat"
       ]
+    },
+    {
+      "id": "work_on_kucuk_zenci_agatha",
+      "title": "On Küçük Zenci",
+      "authorId": "person_agatha_christie_author",
+      "mainCategoryId": "cat_radyo_tiyatrosu",
+      "subCategoryIds": []
     }
   ],
   "contents": [
@@ -399,6 +416,23 @@
       "coverImage": "https://picsum.photos/seed/sucveceza/400",
       "chapterCount": 34,
       "releaseYear": 2010,
+      "language": "tr"
+    },
+    {
+      "id": "content_on_kucuk_zenci",
+      "workId": "work_on_kucuk_zenci_agatha",
+      "title": "On Küçük Zenci",
+      "type": "audio",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "durationSeconds": 5500,
+      "description": "Yıl 1939. Avrupa savaşın eşiğindedir. Her biri ürkütücü sırlar taşıyan on kişi, Devon kıyısında bulunan Asker Adası’ndaki ıssız bir malikâneye davet edilirler.",
+      "authorId": "person_agatha_christie_author",
+      "narratorId": "person_cigdem_oztekin_narrator",
+      "mainCategoryId": "cat_radyo_tiyatrosu",
+      "subCategoryIds": [],
+      "coverImage": "https://picsum.photos/seed/sucveceza/400",
+      "chapterCount": 1,
+      "releaseYear": 1939,
       "language": "tr"
     }
   ]
